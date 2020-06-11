@@ -118,9 +118,9 @@ static const CGFloat TWTRLargeFontSize = 18.0;
 
 #pragma mark - Minimum Line Height
 
-- (void)testMinimumLineHeights_Helvetica
+- (void)testMinimumLineHeights_System
 {
-    UIFont *font = [UIFont fontWithName:@"Helvetica" size:12];
+    UIFont *font = [UIFont systemFontOfSize:12];
 
     [self assertMinimumLineHeight:14 forFont:font verticalSizeClass:UIUserInterfaceSizeClassCompact horizontalSizeClass:UIUserInterfaceSizeClassCompact];
 

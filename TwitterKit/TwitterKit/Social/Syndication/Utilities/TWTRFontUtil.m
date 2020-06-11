@@ -57,8 +57,7 @@ static const CGFloat TWTRRegularWidthRegularHeightLineHeightRatio = 19.0f / 14.0
 + (UIFont *)tweetFontForStyle:(TWTRTweetViewStyle)style
 {
     if (style == TWTRTweetViewStyleRegular) {
-        // System font is already Helvetica Neue but we want Light weight specifically
-        return [UIFont fontWithName:@"HelveticaNeue-Light" size:[self largeFontSize]];
+        return [UIFont systemFontOfSize:[self largeFontSize] weight:UIFontWeightLight];
     } else {
         return [self mediumSizeSystemFont];
     }
@@ -114,7 +113,7 @@ static const CGFloat TWTRRegularWidthRegularHeightLineHeightRatio = 19.0f / 14.0
 
 + (UIFont *)mediumBoldSystemFont
 {
-    return [UIFont fontWithName:@"HelveticaNeue-Medium" size:[self mediumFontSize]];
+    return [UIFont systemFontOfSize:[self mediumFontSize] weight:UIFontWeightMedium];
 }
 
 // This is the font size chosen by the user in System Settings
