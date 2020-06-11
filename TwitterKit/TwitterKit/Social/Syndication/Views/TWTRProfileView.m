@@ -21,7 +21,7 @@
 #import "TWTRTweetViewMetrics.h"
 #import "TWTRViewUtil.h"
 
-static CGFloat const TWTRTweetViewProfileCornerRadius = 4.0;
+static CGFloat const TWTRTweetViewProfileCornerRadius = 18.0;
 
 @interface TWTRProfileView ()
 
