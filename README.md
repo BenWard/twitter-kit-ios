@@ -46,8 +46,6 @@ Using Twitter Kit from source in production applications is not officially suppo
 * Compose Tweets
   * Share Tweets with text, URLs, photos and video.
   * Automatically handles API access and login for quick sharing.
-* Monetize with MoPub integration
-  * Easy integration of MoPub's display ads tools with Twitter content.
 * Log in with Twitter
   * Authorize users, using the Twitter accounts already on their phone.
   * Support for requesting email address
@@ -61,7 +59,7 @@ Using Twitter Kit from source in production applications is not officially suppo
 * TwitterKit
   * Tweet display
 * TwitterShareExtensionUI
-  * Tweet composer 
+  * Tweet composer
 
 ## Installation
 
@@ -70,7 +68,7 @@ Using Twitter Kit from source in production applications is not officially suppo
 * Generate your Twitter API keys through the [Twitter developer apps dashboard](https://apps.twitter.com/).
 * Install Twitter Kit using instructions below.
 * For extensive documentation, please see the official [documentation](https://github.com/twitter/twitter-kit-ios/wiki).
-	
+
 ### Install using Cocoapods
 
 To add Twitter Kit to your app, simply add `TwitterKit` to your Podfile.
@@ -91,7 +89,7 @@ binary "https://ton.twimg.com/syndication/twitterkit/ios/TwitterKit.json"
 binary "https://ton.twimg.com/syndication/twitterkit/ios/TwitterCore.json"
 ```
 
-After running `carthage update`, add `TwitterKit.framework` and `TwitterShareExtensionUI.framework` to the `Linked Frameworks and Binaries` section under General of your App target. In addition to that, make sure that when you are adding the copy-frameworks run script for Carthage that you add the following input paths: 
+After running `carthage update`, add `TwitterKit.framework` and `TwitterShareExtensionUI.framework` to the `Linked Frameworks and Binaries` section under General of your App target. In addition to that, make sure that when you are adding the copy-frameworks run script for Carthage that you add the following input paths:
 
 ```swift
 $(SRCROOT)/Carthage/Build/iOS/TwitterCore.framework

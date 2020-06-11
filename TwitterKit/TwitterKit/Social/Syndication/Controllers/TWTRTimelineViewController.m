@@ -51,7 +51,6 @@ static CGFloat const TWTREstimatedRowHeight = 150;
 
 - (void)commonInitWithDataSource:(id<TWTRTimelineDataSource>)dataSource
 {
-    // Wrappers that optionally set up MoPub if possible and opted-in
     _dataSource = dataSource;
     _showTweetActions = NO;
     _tweets = [NSMutableArray array];

@@ -17,9 +17,7 @@
 		377941651E96DBCF0049A022 /* DCIntrospect_ARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941601E96DBCF0049A022 /* DCIntrospect_ARC.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		377941661E96DBCF0049A022 /* DZNEmptyDataSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941611E96DBCF0049A022 /* DZNEmptyDataSet.framework */; };
 		377941671E96DBCF0049A022 /* FLEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941621E96DBCF0049A022 /* FLEX.framework */; };
-		377941681E96DBCF0049A022 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941631E96DBCF0049A022 /* MoPub.framework */; };
-		377941691E96DBCF0049A022 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941641E96DBCF0049A022 /* SVProgressHUD.framework */; };
-		3789B0F21E96E60F0026BBBC /* MoPub.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941631E96DBCF0049A022 /* MoPub.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+	  377941691E96DBCF0049A022 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941641E96DBCF0049A022 /* SVProgressHUD.framework */; };
 		3789B0F41E96E6A20026BBBC /* DCIntrospect_ARC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941601E96DBCF0049A022 /* DCIntrospect_ARC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3789B0F51E96E6A70026BBBC /* DZNEmptyDataSet.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941611E96DBCF0049A022 /* DZNEmptyDataSet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3789B0F61E96E6AC0026BBBC /* FLEX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941621E96DBCF0049A022 /* FLEX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -37,7 +35,6 @@
 		379A6D041E95B71600625984 /* FABActionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379A6CDA1E95B71600625984 /* FABActionsViewController.xib */; };
 		379A6D061E95B71600625984 /* FABCompactTweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CDE1E95B71600625984 /* FABCompactTweetViewController.m */; };
 		379A6D071E95B71600625984 /* FABDelegateDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CE01E95B71600625984 /* FABDelegateDemoViewController.m */; };
-		379A6D091E95B71600625984 /* FABMoPubTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CE31E95B71600625984 /* FABMoPubTimelineViewController.swift */; };
 		379A6D0A1E95B71600625984 /* FABMutateTweetDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CE51E95B71600625984 /* FABMutateTweetDemoViewController.m */; };
 		379A6D0B1E95B71600625984 /* FABNibDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CE71E95B71600625984 /* FABNibDemoViewController.m */; };
 		379A6D0C1E95B71600625984 /* FABNibDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379A6CE81E95B71600625984 /* FABNibDemoViewController.xib */; };
@@ -201,7 +198,6 @@
 				3789B0F61E96E6AC0026BBBC /* FLEX.framework in CopyFiles */,
 				3789B0F51E96E6A70026BBBC /* DZNEmptyDataSet.framework in CopyFiles */,
 				3789B0F41E96E6A20026BBBC /* DCIntrospect_ARC.framework in CopyFiles */,
-				3789B0F21E96E60F0026BBBC /* MoPub.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +226,6 @@
 		377941601E96DBCF0049A022 /* DCIntrospect_ARC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DCIntrospect_ARC.framework; path = ../vendor/DCIntrospect_ARC.framework; sourceTree = "<group>"; };
 		377941611E96DBCF0049A022 /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DZNEmptyDataSet.framework; path = ../vendor/DZNEmptyDataSet.framework; sourceTree = "<group>"; };
 		377941621E96DBCF0049A022 /* FLEX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLEX.framework; path = ../vendor/FLEX.framework; sourceTree = "<group>"; };
-		377941631E96DBCF0049A022 /* MoPub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoPub.framework; path = ../vendor/MoPub.framework; sourceTree = "<group>"; };
 		377941641E96DBCF0049A022 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = ../vendor/SVProgressHUD.framework; sourceTree = "<group>"; };
 		379A6CA71E95B47300625984 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379A6CAB1E95B47300625984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -253,7 +248,6 @@
 		379A6CDE1E95B71600625984 /* FABCompactTweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FABCompactTweetViewController.m; sourceTree = "<group>"; };
 		379A6CDF1E95B71600625984 /* FABDelegateDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABDelegateDemoViewController.h; sourceTree = "<group>"; };
 		379A6CE01E95B71600625984 /* FABDelegateDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FABDelegateDemoViewController.m; sourceTree = "<group>"; };
-		379A6CE31E95B71600625984 /* FABMoPubTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FABMoPubTimelineViewController.swift; sourceTree = "<group>"; };
 		379A6CE41E95B71600625984 /* FABMutateTweetDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABMutateTweetDemoViewController.h; sourceTree = "<group>"; };
 		379A6CE51E95B71600625984 /* FABMutateTweetDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FABMutateTweetDemoViewController.m; sourceTree = "<group>"; };
 		379A6CE61E95B71600625984 /* FABNibDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABNibDemoViewController.h; sourceTree = "<group>"; };
@@ -319,7 +313,6 @@
 				377941661E96DBCF0049A022 /* DZNEmptyDataSet.framework in Frameworks */,
 				191FF0FFCC8156460546E43A /* Pods_DemoApp.framework in Frameworks */,
 				377941671E96DBCF0049A022 /* FLEX.framework in Frameworks */,
-				377941681E96DBCF0049A022 /* MoPub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +382,6 @@
 				379A6CDE1E95B71600625984 /* FABCompactTweetViewController.m */,
 				379A6CDF1E95B71600625984 /* FABDelegateDemoViewController.h */,
 				379A6CE01E95B71600625984 /* FABDelegateDemoViewController.m */,
-				379A6CE31E95B71600625984 /* FABMoPubTimelineViewController.swift */,
 				379A6CE41E95B71600625984 /* FABMutateTweetDemoViewController.h */,
 				379A6CE51E95B71600625984 /* FABMutateTweetDemoViewController.m */,
 				379A6CE61E95B71600625984 /* FABNibDemoViewController.h */,
@@ -471,7 +463,6 @@
 				377941601E96DBCF0049A022 /* DCIntrospect_ARC.framework */,
 				377941611E96DBCF0049A022 /* DZNEmptyDataSet.framework */,
 				377941621E96DBCF0049A022 /* FLEX.framework */,
-				377941631E96DBCF0049A022 /* MoPub.framework */,
 				377941641E96DBCF0049A022 /* SVProgressHUD.framework */,
 				377783881E96AF1700BC4830 /* TwitterKitResources.bundle */,
 				0E13E2EBAF8AC955FF850B86 /* Pods_DemoApp.framework */,
@@ -870,7 +861,6 @@
 				379A6D0F1E95B71600625984 /* FABTextFlowDemoViewController.m in Sources */,
 				379A6D121E95B71600625984 /* ListTimelineViewController.swift in Sources */,
 				AAAAF7571FA290BD002F1991 /* HomeViewController.swift in Sources */,
-				379A6D091E95B71600625984 /* FABMoPubTimelineViewController.swift in Sources */,
 				379A6D171E95B71600625984 /* TweetViewController.swift in Sources */,
 				AAAAF7591FA29131002F1991 /* RootTransitionContext.swift in Sources */,
 				379A6CFF1E95B71600625984 /* CollectionFilteredTimelineViewController.swift in Sources */,

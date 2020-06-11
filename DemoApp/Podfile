@@ -9,7 +9,6 @@ target 'DemoApp' do
 #     pod 'DZNEmptyDataSet'
 #     pod 'SVProgressHUD'
 #     pod 'FLEX'
-#     pod 'mopub-ios-sdk'
 end
 
 target 'DemoAppTests' do
